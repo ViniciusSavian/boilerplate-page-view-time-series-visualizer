@@ -2,6 +2,7 @@ import unittest
 import time_series_visualizer
 import matplotlib as mpl
 
+
 class DataCleaningTestCase(unittest.TestCase):
     def test_data_cleaning(self):
         actual = int(time_series_visualizer.df.count(numeric_only=True))
